@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka.Model", "Kafka.Model\Kafka.Model.csproj", "{656C0283-32A7-48BC-BF44-432DEA49F681}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka.Producer.API", "Kafka.Producer.API\Kafka.Producer.API.csproj", "{4423559B-6585-468D-9214-F5AD013E2B41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka.Consumer.Console", "Kafka.Consumer.Console\Kafka.Consumer.Console.csproj", "{6AB61D70-98A0-408C-ABEE-FDC2053F84EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{656C0283-32A7-48BC-BF44-432DEA49F681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{656C0283-32A7-48BC-BF44-432DEA49F681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{656C0283-32A7-48BC-BF44-432DEA49F681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{656C0283-32A7-48BC-BF44-432DEA49F681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4423559B-6585-468D-9214-F5AD013E2B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4423559B-6585-468D-9214-F5AD013E2B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4423559B-6585-468D-9214-F5AD013E2B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4423559B-6585-468D-9214-F5AD013E2B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AB61D70-98A0-408C-ABEE-FDC2053F84EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB61D70-98A0-408C-ABEE-FDC2053F84EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB61D70-98A0-408C-ABEE-FDC2053F84EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB61D70-98A0-408C-ABEE-FDC2053F84EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

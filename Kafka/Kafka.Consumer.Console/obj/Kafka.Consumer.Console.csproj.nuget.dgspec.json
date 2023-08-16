@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GitHub\\Projetos\\poc-kafka\\Kafka\\Kafka.Consumer.Console\\Kafka.Consumer.Console.csproj": {}
+  },
+  "projects": {
+    "D:\\GitHub\\Projetos\\poc-kafka\\Kafka\\Kafka.Consumer.Console\\Kafka.Consumer.Console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\Projetos\\poc-kafka\\Kafka\\Kafka.Consumer.Console\\Kafka.Consumer.Console.csproj",
+        "projectName": "Kafka.Consumer.Console",
+        "projectPath": "D:\\GitHub\\Projetos\\poc-kafka\\Kafka\\Kafka.Consumer.Console\\Kafka.Consumer.Console.csproj",
+        "packagesPath": "C:\\Users\\JEIDSAN-PC\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\Projetos\\poc-kafka\\Kafka\\Kafka.Consumer.Console\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\JEIDSAN-PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\GitHub\\Projetos\\poc-kafka\\Kafka\\kafka.Model\\kafka.Model.csproj": {
+                "projectPath": "D:\\GitHub\\Projetos\\poc-kafka\\Kafka\\kafka.Model\\kafka.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHub\\Projetos\\poc-kafka\\Kafka\\kafka.Model\\kafka.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\Projetos\\poc-kafka\\Kafka\\kafka.Model\\kafka.Model.csproj",
+        "projectName": "kafka.Model",
+        "projectPath": "D:\\GitHub\\Projetos\\poc-kafka\\Kafka\\kafka.Model\\kafka.Model.csproj",
+        "packagesPath": "C:\\Users\\JEIDSAN-PC\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\Projetos\\poc-kafka\\Kafka\\kafka.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\JEIDSAN-PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

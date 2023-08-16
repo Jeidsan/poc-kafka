@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "d:\\GitHub\\Projetos\\poc-kafka\\Kafka\\Kafka.Producer.API\\Kafka.Producer.API.csproj": {}
+  },
+  "projects": {
+    "d:\\GitHub\\Projetos\\poc-kafka\\Kafka\\Kafka.Model\\Kafka.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\GitHub\\Projetos\\poc-kafka\\Kafka\\Kafka.Model\\Kafka.Model.csproj",
+        "projectName": "Kafka.Model",
+        "projectPath": "d:\\GitHub\\Projetos\\poc-kafka\\Kafka\\Kafka.Model\\Kafka.Model.csproj",
+        "packagesPath": "C:\\Users\\JEIDSAN-PC\\.nuget\\packages\\",
+        "outputPath": "d:\\GitHub\\Projetos\\poc-kafka\\Kafka\\Kafka.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\JEIDSAN-PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\GitHub\\Projetos\\poc-kafka\\Kafka\\Kafka.Producer.API\\Kafka.Producer.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\GitHub\\Projetos\\poc-kafka\\Kafka\\Kafka.Producer.API\\Kafka.Producer.API.csproj",
+        "projectName": "Kafka.Producer.API",
+        "projectPath": "d:\\GitHub\\Projetos\\poc-kafka\\Kafka\\Kafka.Producer.API\\Kafka.Producer.API.csproj",
+        "packagesPath": "C:\\Users\\JEIDSAN-PC\\.nuget\\packages\\",
+        "outputPath": "d:\\GitHub\\Projetos\\poc-kafka\\Kafka\\Kafka.Producer.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\JEIDSAN-PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\sdk\\7.0.305\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "d:\\GitHub\\Projetos\\poc-kafka\\Kafka\\Kafka.Model\\Kafka.Model.csproj": {
+                "projectPath": "d:\\GitHub\\Projetos\\poc-kafka\\Kafka\\Kafka.Model\\Kafka.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

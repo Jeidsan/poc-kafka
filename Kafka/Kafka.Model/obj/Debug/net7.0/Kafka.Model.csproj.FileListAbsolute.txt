@@ -1,0 +1,12 @@
+D:\GitHub\Projetos\poc-kafka\kafka\Kafka.Model\bin\Debug\net7.0\Kafka.Model.deps.json
+D:\GitHub\Projetos\poc-kafka\kafka\Kafka.Model\bin\Debug\net7.0\Kafka.Model.dll
+D:\GitHub\Projetos\poc-kafka\kafka\Kafka.Model\bin\Debug\net7.0\Kafka.Model.pdb
+D:\GitHub\Projetos\poc-kafka\kafka\Kafka.Model\obj\Debug\net7.0\Kafka.Model.csproj.AssemblyReference.cache
+D:\GitHub\Projetos\poc-kafka\kafka\Kafka.Model\obj\Debug\net7.0\Kafka.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Projetos\poc-kafka\kafka\Kafka.Model\obj\Debug\net7.0\Kafka.Model.AssemblyInfoInputs.cache
+D:\GitHub\Projetos\poc-kafka\kafka\Kafka.Model\obj\Debug\net7.0\Kafka.Model.AssemblyInfo.cs
+D:\GitHub\Projetos\poc-kafka\kafka\Kafka.Model\obj\Debug\net7.0\Kafka.Model.csproj.CoreCompileInputs.cache
+D:\GitHub\Projetos\poc-kafka\kafka\Kafka.Model\obj\Debug\net7.0\Kafka.Model.dll
+D:\GitHub\Projetos\poc-kafka\kafka\Kafka.Model\obj\Debug\net7.0\refint\Kafka.Model.dll
+D:\GitHub\Projetos\poc-kafka\kafka\Kafka.Model\obj\Debug\net7.0\Kafka.Model.pdb
+D:\GitHub\Projetos\poc-kafka\kafka\Kafka.Model\obj\Debug\net7.0\ref\Kafka.Model.dll
